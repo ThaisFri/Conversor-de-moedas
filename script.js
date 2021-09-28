@@ -3,7 +3,7 @@ function ConverterDolar() {
   var valor = valorElemento.value;
   var valorReal = parseFloat(valor);
 
-  var valorDolar = valorReal * 5;
+  var valorDolar = valorReal / 5;
   console.log(valorDolar);
 
   var elementoValorConvertidoDolar = document.getElementById("valorConvertidoDolar");
